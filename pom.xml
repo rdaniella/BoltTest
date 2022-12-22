@@ -14,7 +14,7 @@
 		<scope>compile</scope>
 	</dependency>
 	<dependency>
-		<groupId>org.springframework</groupId>
+		<groupId>org.springframework<>
 		<artifactId>spring-web</artifactId>
 		<version>5.3.14</version>
 		<scope>compile</scope>
