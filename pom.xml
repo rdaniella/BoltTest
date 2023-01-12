@@ -4,20 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.whitesource</groupId>
-    <artifactId>maven-pom</artifactId>
+    <artifactId>katerina-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
 <dependencies>
 	<dependency>
-		<groupId>org.jsoup</groupId>
-		<artifactId>jsoup</artifactId>
-		<version>1.14.2</version>
-		<scope>compile</scope>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework
-		<artifactId>spring-web</artifactId>
-		<version>5.3.14</version>
-		<scope>compile</scope>
+		<groupId>org.apache.camel</groupId>
+		<artifactId>camel-zookeeper</artifactId>
+		<version>3.4.3</version>
 	</dependency>
 </dependencies>
 </project>
